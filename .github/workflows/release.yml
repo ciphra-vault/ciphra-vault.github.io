@@ -15,7 +15,7 @@ jobs:
       pages: write
       id-token: write
       attestations: write
-    uses: Frozik/portfolio/.github/workflows/vault-release.yml@99615b8b690d43e1388f3f30febb29d6edf26f23 # v2.51.0
+    uses: Frozik/portfolio/.github/workflows/vault-release.yml@3f737d18447870da9f04dffb3d7fae57770269a4 # v2.52.1
     # The APK's signing key: only the monorepo workflow's `sign` job, in the `release` environment, reads it.
     # Named, not `inherit`: inherit passes nothing to a workflow of another owner (Frozik, not this org).
     secrets:
